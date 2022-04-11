@@ -1,53 +1,83 @@
+/* GLOBAL STYLES */
+
 * {
   box-sizing: border-box;
 }
+
 body,
 h1,
 h2,
 p {
   margin: 0;
   padding: 0;
+  font-family: "Playfair Display", serif;
 }
+
 h1 {
   color: white;
   text-transform: uppercase;
   text-align: center;
   font-size: 3rem;
 }
+
 h2 {
   color: #c05060;
   text-transform: uppercase;
   text-align: center;
   font-size: 3rem;
 }
+
 p {
   font-size: 1rem;
 }
+
 span {
   color: #c05060;
 }
+
 button {
   border: 1px white solid;
   padding: 5px 10px;
 }
+
+/* ____ UTILITY CLASSES ____ */
+
+/* TEXT */
+
 .text-align-center {
   text-align: center;
 }
+
 .text-transform-uppercase {
   text-transform: uppercase;
 }
-.baner {
-  height: 100vh;
-}
+
 .text-color-dimgrey {
   color: dimgrey;
 }
+
 .text-color-lightgrey {
   color: #b7b7b7;
 }
+
+.text-color-white {
+  color: white;
+}
+
+.text-font-weight-800 {
+  font-weight: 800;
+}
+
+.letter-spacing-sm {
+  letter-spacing: 0.1rem;
+}
+
+/* POSITIONS */
+
 .position-relative {
   position: relative;
 }
+
 .position-absolute-center {
   position: absolute;
   left: 50%;
@@ -58,39 +88,70 @@ button {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+
 .position-absolute-top-left {
   position: absolute;
   left: 20px;
   top: 20px;
 }
+
 .position-fixed {
   position: fixed;
   left: 0;
   right: 0;
 }
+
+/* CONTAINERS */
+
 .wrapper-95 {
   width: 95%;
 }
+
 .wrapper-90 {
   width: 90%;
 }
+
 .wrapper-70 {
   width: 70%;
 }
+
+/* PADDING */
+
 .padding-main {
   padding: 50px 0;
 }
+
 .padding-nav {
   padding: 20px 0;
 }
+
+/* MARGIN */
+
+.margin-bottom-sm {
+  margin-bottom: 15px;
+}
+
+/* FLOAT */
+
 .float-33 {
   float: right;
   width: 33.333;
 }
+
 .float-25 {
   float: right;
   width: 25;
 }
+
 .clear {
   clear: both;
+}
+
+/* PAGE ELEMENTS */
+
+.banner {
+  background-image: url("./images/wheat-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
