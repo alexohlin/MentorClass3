@@ -1,0 +1,5 @@
+colors:
+#787878 - dimgrey
+#b7b7b7 - lightgrey
+#c05060 - red
+#fff - white
